@@ -17,4 +17,4 @@ esac
 capacity=$(cat "$battery/capacity")
 # Prints the info
 # printf "%s%s%d%%" "$status" "$warn" "$capacity"; unset warn
-echo "$status" "$capacity% "
+echo "$status$capacity% "
