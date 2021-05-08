@@ -12,7 +12,7 @@ case "$(cat "$battery/status")" in
 	"Discharging") status="🔋" ;;
 	"Charging") status="🔌" ;;
 	"Not charging") status="🛑" ;;
-	"Unknown") status=" " ;;
+	"Unknown") status="🔌 " ;;
 esac
 capacity=$(cat "$battery/capacity")
 # Prints the info
