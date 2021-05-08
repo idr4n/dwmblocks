@@ -2,4 +2,4 @@
 
 cupd=$(checkupdates | wc -l)
 # echo "$cupd updates "
-echo "$cupd "
+echo "$cupd"
