@@ -10,7 +10,7 @@ battery=/sys/class/power_supply/BAT0
 case "$(cat "$battery/status")" in
 	"Full") status="⚡" ;;
 	"Discharging") status="🔋" ;;
-	"Charging") status="🔌🔋" ;;
+	"Charging") status="⚡ 🔋" ;;
 	"Not charging") status="🛑" ;;
 	"Unknown") status="🔌" ;;
 esac
